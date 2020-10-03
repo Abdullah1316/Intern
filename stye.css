@@ -55,7 +55,7 @@ h5{
 }
 .carousel-control {
     position: absolute;
-    top: -40px;
+    top: -20px;
     bottom: 382px;
     left: 900px;
     width: 15%;
@@ -68,9 +68,29 @@ h5{
     opacity: 1.5;
 }
 #img{
-	float: left;
-	width: 50%;
-	padding: .01%;
+  width: 105.4%;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  color: white;
+}
+.carousel-indicators li{
+    position: relative;
+    top: 40px;
+    background-color: #959595 
+}
+.carousel-indicators .active{
+    position: relative;
+    top: 40px;
+    background-color: #959595 
+}
+.fa-camera{
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+    color: black;
 }
 #Am h5{
 	color: #921a1f;
@@ -215,6 +235,7 @@ position:absolute;
     color: white;
     padding: 50px;
     border-radius: 0px;
+    margin-bottom: 0px; 
 }
 #footer-menu a{
 	float: left;
